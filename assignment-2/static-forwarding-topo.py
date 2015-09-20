@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-"Assignment 2 - Creates the topology used for the learning switch \
+"Assignment 2 - Creates the topology used for the static switch \
     assignment. This file needs no changes in order to complete the \
     assignment, however the student may want to change it to test new \
     topologies."
@@ -15,8 +15,8 @@ from mininet.cli  import CLI
 
 class LSTopo(Topo):
     def __init__(self, cpu=.1, bw=10, delay=None, **params):
-        """ Creates the topology described in assignment 4
-            with 5 switches and 7 hosts.
+        """ Creates the topology described in assignment 2
+            with 2 switches and 4 hosts.
             cpu: system fraction for each host
             bw: link bandwidth in Mb/s
             delay: link delay (e.g. 10ms)"""
