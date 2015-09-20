@@ -15,7 +15,7 @@ from mininet.cli  import CLI
 
 class LSTopo(Topo):
     def __init__(self, cpu=.1, bw=10, delay=None, **params):
-        """ Creates the topology described in assignment 4
+        """ Creates the topology described in assignment 2
             with 5 switches and 7 hosts.
             cpu: system fraction for each host
             bw: link bandwidth in Mb/s
